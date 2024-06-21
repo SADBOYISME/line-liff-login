@@ -3,7 +3,7 @@ import liff from '@line/liff';
 
 import { useEffect, useState } from 'react'
 
-const liffId: string = '2004442336-Og19r7oK';
+const liffId: string = 'yourliffid';
 const initLiff = async () => {
   await liff.init({ liffId: liffId })
   if (!liff.isLoggedIn()) {
